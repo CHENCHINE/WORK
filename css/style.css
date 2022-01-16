@@ -1,0 +1,109 @@
+body {
+  font-size: 14px;
+}
+
+body {
+  background-image: url(pp/background.jpg);
+  /* background-attachment: scroll; */
+  /* 跟內容一起滾動 */
+  background-attachment: fixed;
+}
+
+.wrap {
+  background: rgb(0, 0, 0);
+  width: 1000px;
+  margin: 60px auto;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+
+/* header */
+
+.header {
+  overflow: hidden;
+}
+
+.header .pic {
+  width: 600px;
+  height: 340px;
+  float: left;
+  margin-right: 50px;
+  font-family: "微軟正黑體", "Microsoft JhengHei", "Segoe UI Semibold", "Segoe UI", "Lucidㄦa Grande", Verdana, Arial, Helvetica, sans-serif ;
+  
+}
+
+.header .pic img {
+  width: 600px;
+  height: 340px;
+}
+
+.header .info {}
+
+.header .info h1 {
+  color: aliceblue;
+  font-size: 16px;
+  margin-bottom: 100px;
+}
+
+.header .info p {color: aliceblue;}
+
+.header .info .social {
+  color: aliceblue;
+  font-size: 16px;
+
+}
+
+.header .info .social a {color: aliceblue;
+
+}
+
+.header .info .social a img {
+  color: aliceblue;
+  width: 32px;
+  height: 32px;
+}
+
+.header .info .mail { color: aliceblue;}
+
+.header .info .mail a { color: aliceblue;}
+
+.header .info .phone { color: aliceblue;}
+
+
+/* software */
+
+.software {
+  color: aliceblue;
+}
+
+
+/* Professional */
+
+.Professional {
+  color: aliceblue;
+
+}
+
+/* work  */
+
+.work {
+  overflow: hidden;
+  color: aliceblue;
+}
+
+.work .pic {
+  width: 280px;
+  height: 200px;
+  float: left;
+  margin-right: 12px;
+  margin-left: 12px;
+  margin-bottom: 20px;
+  overflow: hidden;
+
+}
+
+.work .pic img {
+  width: 280px;
+  height: 200px;
+}
